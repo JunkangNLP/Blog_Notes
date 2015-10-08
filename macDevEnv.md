@@ -3,7 +3,7 @@ date: 2014-12-15
 tags: [工具]
 categories: 工程
 ---
-### IDE的选择
+### <font color="#32CD99"> IDE的选择 </font>
 
 #### 1)  PyCharm
 
@@ -14,13 +14,19 @@ categories: 工程
 
   Sublime3挺好用的，虽然会跳出购买的框，但没关系，还是OK的。Python很大一部分可以用Sublime来代替，但是C++折腾了蛮久还是没有发现可以代替，所以sublime只能在学习C++写些代码可以用，其他还是使用Appcode来用。其他还有好多插件，目前用不上, VIM模式也可以节省记忆少去记一些文本操作键。
 Sublime做一些设置可以在工作环境中写一些代码，这个完全可以做到。  
-1)    JEDI 补全插件
+1)    JEDI 补全插件.
 2)    brogrammer主题不错。
+3)    sublimelinter 
+4)    sublimelinter-pep8, sulimelinter-pyflakes
+4)    sublimelinter-sqlint
 
 #### 3) IDEA 
   作为 Scala 和 Spark 的开发IDE。用Sublime文本编辑。
 
-### Python相关
+#### 4) Eclipse
+  身不由己
+
+### <font color="#32CD99"> Python相关 </font>
 
 #### 1) Python的版本问题
 
@@ -35,9 +41,29 @@ Sublime做一些设置可以在工作环境中写一些代码，这个完全可�
 *  jieba(分词)
 *  scikit-learn(机器学习)
 
-### Scala & Spark 
+### <font color="#32CD99"> Java 相关 </font>
+
+  Mac 下的 java6 是 Apple 自己提供的版本，有时候需要用到更高的java版本，本来以为 jenv 和 pyenv 一样好用，实际上有些问题。所以通过更改环境变量可以随时更改版本。
+
+    # Mac默认 JDK 6（Mac默认自带了一个jdk6版本）  
+    export JAVA_6_HOME=`/usr/libexec/java_home -v 1.6`  
+    # 设置 JDK 7  
+    export JAVA_7_HOME=`/usr/libexec/java_home -v 1.7`  
+    # 设置 JDK 8  
+    export JAVA_8_HOME=`/usr/libexec/java_home -v 1.8`  
+      
+    #默认JDK 6  
+    export JAVA_HOME=$JAVA_6_HOME  
+      
+    #alias命令动态切换JDK版本  
+    alias jdk6="export JAVA_HOME=$JAVA_6_HOME"  
+    alias jdk7="export JAVA_HOME=$JAVA_7_HOME"  
+    alias jdk8="export JAVA_HOME=$JAVA_8_HOME"  
+
+### <font color="#32CD99"> Scala & Spark </font>
 
 待续。
 
 参考资料：
 *    [Setting Up Sublime Text 3 for Full Stack Python Development](https://realpython.com/blog/python/setting-up-sublime-text-3-for-full-stack-python-development/)
+*    [MAC下安装多版本JDK和切换几种方式](http://chessman-126-com.iteye.com/blog/2162466)

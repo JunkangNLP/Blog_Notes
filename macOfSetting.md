@@ -5,7 +5,7 @@ categories: 工程
 ---
 在 Mac 下一些常用的软件。工欲善其事，必先利其器。
 
-### 工具
+### <font color="#32CD99"> 工具 </font>
   之前用了Ubuntu将近一年半的时间，后来想转Win，现在搞了台Macbook Air, 作为半个开发机来使用。由于前面使用Ubuntu的经历，适应Mac OS X只需要话很短的时间。开发人员当然需要配置一些东西，工欲善其事，必先利其器。  
 1)  ShadowSocks, 梯子工具，浏览器无需设置，Mac 下直接可以。
 2)  Homebrew, 类似 Ubuntu 的 apt-get, 方便安装工具。
@@ -18,7 +18,7 @@ categories: 工程
 9)  Zotero 文献管理工具 
 
 
-### 参考
+### <font color="#32CD99"> 参考 </font>
   暂时是这样，这些工具参考以下链接：
 
 *   [使用 pyenv 和 Miniconda 管理 Python 科学计算环境](http://huangziwei.com/tech/setting-up-scientific-python-environment-in-os-x-10-10-using-miniconda/)
